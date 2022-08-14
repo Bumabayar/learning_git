@@ -1,0 +1,36 @@
+git init: Тухайн төслийн хавтас дотор хоосон git respository үүсгэж өгнө
+
+git config --global user.name "NAME": Энэ git систем дээрх нэр.
+
+git config --global user.email "email@address.com": git систем дээрх имэйл.
+
+ls -a: тухайн directory доторх нууцлагдсан файлуудыг харах 
+
+     <<<<<<<<<Git local repository-той ажиллах үндсэн командууд>>>>>>>>>>>
+ git status: Одоо төслийн файлууд ямар байдалтай байгааг харуулна. 
+ git add <file_name>| -A: Файлын өөрчлөлтийг repository-д хадгалахаар сонгоно. 
+ git commit -m "<comment for the change>": git add-ээр сонгосон файлыг repository-д бичнэ.
+ git commit -am: Staging area-гаар дамжихгүйгээр шийд repository-руу хийх
+
+ git checkout -- .: Repository дотроос файлыг буцаан гаргаж авна.
+ git push: Local repository -оос remote repository руу upload хийнэ.
+ git pull: Remote repository дотроос файлыг буцаан локал repository руу татаж авна.
+
+    <<<<<<<<< Git remote repository-той ажиллах үндсэн командууд >>>>>>>>>>
+
+git push origin master:окал repository-оос Remote repository руу оруулах.
+git pull: Remote repository дотроос файлыг Локал repository-оос  руу татах.
+
+    <<<<<<<<<< Git тохиргоогоо хянах >>>>>>>>>>>
+
+git config --list: Тохиргоогоо харах 
+git config --global user.name "NAME": Энэ git систем дээрх нэр.
+git config --global user.email "email@address.com": git систем дээрх имэйл.
+
+git log: Файлын өөрчөлтийн түүхийг харах
+
+git remote add origin <github url>: local repo-гоо remote repo руу зааж өгөх
+git remote remove "name of url": origin ect
+git remote -v: тохируулж өгсөн remote repository-гоо харах
+
+git branch: төсөл дээр мастер, тест, хөгжүүлэлт гэх мэт олон мөчир үүсгэж ажилладаг
